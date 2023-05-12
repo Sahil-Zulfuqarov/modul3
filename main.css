@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); 
+ 
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: Roboto; 
+} 
+ 
+header{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 20px; 
+    background-color: #d8d8d8; 
+} 
+ 
+ul{ 
+    list-style: none; 
+    display: flex; 
+} 
+ 
+li{ 
+    margin: 0 10px; 
+    color: #999; 
+    font-weight:700 ; 
+    font-size: 14px; 
+} 
+ 
+li:hover{ 
+    color: #111; 
+} 
+ 
+.headbtn{ 
+    width: 70px; 
+    height: 30px; 
+    border: none; 
+    border-radius: 5px; 
+} 
+ 
+.headbtn:hover{ 
+    transform: scaleY(45deg); 
+} 
+ 
+main{ 
+    text-align: center; 
+} 
+ 
+h1{ 
+    margin: 100px 0 40px 0; 
+} 
+ 
+.dd{ 
+    display: flex; 
+    justify-content: space-evenly; 
+} 
+ 
+.d1, .d2{ 
+    display: flex; 
+    flex-direction: column; 
+    align-items: start; 
+} 
+ 
+p{ 
+    color: #999; 
+    font-size: 14px; 
+    margin-bottom: 10px; 
+} 
+ 
+button{ 
+    width: 80px; 
+    height: 40px; 
+    border: 1px solid #999; 
+} 
+ 
+button:hover{ 
+    border: none; 
+    background-color: blueviolet; 
+    color: white; 
+    transition: 1s; 
+} 
+ 
+.btns{ 
+    display: flex; 
+    margin-bottom: 20px; 
+} 
+ 
+.b1{ 
+    border-radius: 5px 0 0 5px; 
+} 
+ 
+.b2{ 
+    border-radius: 0 5px 5px 0; 
+} 
+
+.bactive{
+    background-color: darkviolet;
+}
+ 
+input{ 
+    width: 100%; 
+    padding: 10px; 
+    font-size: 20px; 
+    border: none; 
+    border-radius: 5px 5px 0 0; 
+} 
+ 
+.ii{ 
+    height: 100px; 
+    width: 100%; 
+    border: 1px solid grey; 
+    border-radius: 5px; 
+ 
+} 
+ 
+.pp{ 
+    display: flex; 
+    justify-content: start; 
+    margin-top: 30px; 
+    margin-left: 10px; 
+}
